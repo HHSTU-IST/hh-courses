@@ -1,0 +1,203 @@
+/* 动漫风 CSS 样式表 - 适用于 Pandoc HTML 输出 */
+:root {
+    --anime-pink: #ff9ed8;
+    /* 主色调：樱花粉 */
+    --anime-blue: #87ceeb;
+    /* 辅助色：天空蓝 */
+    --anime-purple: #c8a2c8;
+    /* 强调色：浪漫紫 */
+    --anime-green: #98fb98;
+    /* 点缀色：嫩绿色 */
+    --anime-bg: #fffaf0;
+    /* 背景色：浅乳白 */
+    --anime-card-bg: #ffffff;
+    /* 卡片背景色 */
+}
+
+/* 基础样式 */
+body {
+    font-family: "SF Pro SC", "SF Pro Text", "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "WenQuanYi Micro Hei", "Comic Sans MS",
+        "Hiragino Sans", "Noto Sans CJK SC", sans-serif;
+    background-color: var(--anime-bg);
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+
+/* 标题样式 - 渐变色彩和图标装饰 */
+h1,
+h2,
+h3 {
+    color: var(--anime-purple);
+    border-left: 5px solid var(--anime-pink);
+    padding-left: 15px;
+    margin-top: 1.5em;
+}
+
+h1 {
+    background: linear-gradient(135deg, var(--anime-pink), var(--anime-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border: none;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+h1::before,
+h1::after {
+    content: "✧";
+    margin: 0 10px;
+    color: var(--anime-pink);
+}
+
+/* 链接样式 - 活泼的交互效果 */
+a {
+    color: var(--anime-blue);
+    text-decoration: none;
+    border-bottom: 1px dotted transparent;
+    transition: all 0.3s ease;
+    padding: 0 2px;
+}
+
+a:hover {
+    color: var(--anime-pink);
+    border-bottom-color: currentColor;
+    background-color: rgba(255, 158, 216, 0.1);
+    border-radius: 3px;
+}
+
+/* 代码块样式 - 模拟对话框气泡 */
+pre {
+    background: linear-gradient(135deg, #edf7ff, #fff0f5);
+    border: 1px solid var(--anime-blue);
+    border-radius: 15px;
+    border-left: 8px solid var(--anime-pink);
+    box-shadow: 0 4px 12px rgba(135, 206, 235, 0.2);
+    padding: 15px;
+    overflow-x: auto;
+    position: relative;
+}
+
+pre::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    color: var(--anime-pink);
+    font-weight: bold;
+}
+
+code {
+    background-color: rgba(255, 158, 216, 0.15);
+    border-radius: 4px;
+    padding: 0.2em 0.4em;
+    color: #d63384;
+    font-family: "SF Mono", "Monaco", "Inconsolata", "Roboto Mono",
+        "Source Code Pro", "Microsoft YaHei Mono", monospace;
+}
+
+/* 引用块样式 - 营造旁白或对话感 */
+blockquote {
+    background-color: rgba(135, 206, 235, 0.1);
+    border-left: 6px solid var(--anime-blue);
+    border-radius: 12px 0 0 12px;
+    font-style: italic;
+    color: #555;
+    margin: 1.5em 0;
+    padding: 1em 1.5em;
+    position: relative;
+}
+
+blockquote::before {
+    content: "";
+    font-size: 2em;
+    color: var(--anime-blue);
+    position: absolute;
+    left: 5px;
+    top: -5px;
+}
+
+/* 表格样式 - 清爽的头部和斑马纹 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5em 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: linear-gradient(135deg, var(--anime-pink), var(--anime-purple));
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    padding: 12px 15px;
+}
+
+td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 158, 216, 0.05);
+}
+
+/* 列表样式 - 自定义项目符号 */
+ul,
+ol {
+    padding-left: 1.5em;
+}
+
+ul li {
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+
+ul li::before {
+    content: "✦";
+    color: var(--anime-pink);
+    font-weight: bold;
+    position: absolute;
+    left: -1em;
+}
+
+/* 水平线样式 */
+hr {
+    border: none;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--anime-pink), transparent);
+    margin: 2em 0;
+}
+
+/* 响应式设计：移动端优化 */
+@media (max-width: 767px) {
+    body {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    pre {
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
