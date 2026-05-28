@@ -6,12 +6,13 @@
 # Thumbnails
 ._*
 
+# Python
+*.pyc
+*.pt
+
 # Extras
 *.mp4
 *.docx
-*.lock
-*.pyc
 
-node_modules
-dist
-miniprogram_npm
+vision/*.ipynb
+vision-plus
