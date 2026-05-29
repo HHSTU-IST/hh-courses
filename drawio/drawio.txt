@@ -1,0 +1,31 @@
+# namespace: csvimport-
+# label: %name%
+# style: shape=%shape%;
+# nodespacing: 40
+# levelspacing: 100
+# edgespacing: 40
+# connect: {"from": "father", "to": "id", "invert": true, "label": "contains", "style":"fontSize=12;orthogonal=1;curved=0;endArrow=blockThin;"}
+# connect: {"from": "id", "to": "refs", "label": "support", "style":"fontSize=12;orthogonal=1;curved=0;startArrow=blockThin;endArrow=none;"}
+# layout: horizontalflow
+# csv data below:
+id,layer,father,name,refs,shape
+Z,0,none,Spark RDD,,rectangle
+A,1,Z,create RDD,,rectangle
+B,1,Z,RDD conversion,,rectangle
+A1,2,A,distributed file create,,rectangle
+A2,2,A,local file create,,rectangle
+A3,2,A,set file create,,rectangle
+B1,2,B,Filter,,rectangle
+B2,2,B,Map,,rectangle
+B3,2,B,Flatmap,,rectangle
+B4,2,B,groupbykey,,rectangle
+B5,2,B,reducebykey,,rectangle
+z,1,none,RDD instance,Z,document
+a,2,none,RDD Instance,A,rectangle
+a2,3,none,file manipulation,A2,rectangle
+a3,3,none,Python list,A3,rectangle
+b1,3,none,Filter instance,B1,document
+b2,3,none,Map instance,B2,document
+b3,3,none,Flatmap instance,B3,document
+b4,3,none,groupbykey instance,B4,document
+b5,3,none,reducebykey instance,B5,document

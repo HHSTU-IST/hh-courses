@@ -1,0 +1,8 @@
+# namespace: csvimport-
+# label: %name%
+# style: shape=%shape%;
+# nodespacing: 40
+# levelspacing: 100
+# edgespacing: 40
+# connect: {"from": "father", "to": "id", "invert": true, "label": "contains", "style":"fontSize=12;curved=0;endArrow=blockThin;"}
+# connect: {"from": "id", "to": "refs", "label": "support", "style":"fontSize=12;curved=0;startArrow=blockThin;endArrow=none;"}

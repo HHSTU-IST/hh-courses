@@ -1,0 +1,131 @@
+<mxfile host="Drawpyo" modified="2025-08-07T00:00:55" agent="Python 3.12, Drawpyo 0.01" version="21.6.5" type="device">
+  <diagram name="Page-1" id="4489563696">
+    <mxGraphModel dx="2037" dy="830" grid="1" gridSize="10" guides="1" toolTips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0    Z
+Name: id, dtype: object" value="Spark RDD" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="10.0" y="510.0" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="A" value="create RDD" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="190.0" y="225.0" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="A1" value="distributed file create" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="370.0" y="82.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="A2" value="local file create" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="370.0" y="177.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="a2" value="file manipulation" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="550.0" y="177.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="A3" value="set file create" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="370.0" y="272.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="a3" value="Python list" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="550.0" y="272.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="a" value="RDD Instance" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="370.0" y="367.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="B" value="RDD conversion" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="190.0" y="652.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="B1" value="Filter" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="370.0" y="462.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="b1" value="Filter instance" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="550.0" y="462.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="B2" value="Map" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="370.0" y="557.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="b2" value="Map instance" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="550.0" y="557.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="B3" value="Flatmap" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="370.0" y="652.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="b3" value="Flatmap instance" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="550.0" y="652.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="B4" value="groupbykey" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="370.0" y="747.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="b4" value="groupbykey instance" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="550.0" y="747.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="B5" value="reducebykey" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="370.0" y="842.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="b5" value="reducebykey instance" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="550.0" y="842.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="z" value="RDD instance" style="whiteSpace=wrap;rounded=0;dashed=0;" vertex="1" parent="1">
+  <mxGeometry x="190.0" y="937.5" width="120" height="80" as="geometry" />
+</mxCell>
+        <mxCell id="4562822704" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="0    Z
+Name: id, dtype: object" target="A">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562823520" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="A" target="A1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562823568" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="A" target="A2">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562824048" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="A2" target="a2">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562824000" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="A" target="A3">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562824624" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="A3" target="a3">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562824432" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="A" target="a">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562823472" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="0    Z
+Name: id, dtype: object" target="B">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562825104" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="B" target="B1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562825392" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="B1" target="b1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562825344" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="B" target="B2">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562825776" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="B2" target="b2">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562825728" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="B" target="B3">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562826160" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="B3" target="b3">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562826112" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="B" target="B4">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562826544" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="B4" target="b4">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562826496" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="B" target="B5">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562826928" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="B5" target="b5">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="4562825056" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="0    Z
+Name: id, dtype: object" target="z">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
