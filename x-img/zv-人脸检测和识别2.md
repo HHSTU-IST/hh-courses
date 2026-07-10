@@ -15,7 +15,7 @@
 
 通过深度学习MTCNN+FaceNet实现对于人脸检测和人脸识别，要求掌握人脸识别的流程：人脸检测、人脸对齐、人脸特征提取、人脸特征匹配等过程。
 
-![alt](img/proc-facedet.png)
+![alt](./img/proc-facedet.png)
 
 ## 实现过程
 
@@ -25,11 +25,11 @@
 
 ### MTCNN
 
-![alt](img/p-net.png)
-![alt](img/r-net.png)
-![alt](img/o-net.png)
+![alt](./img/p-net.png)
+![alt](./img/r-net.png)
+![alt](./img/o-net.png)
 
-![alt](img/mtcnn.png)
+![alt](./img/mtcnn.png)
 
 ```python
 class mtcnn():
@@ -141,7 +141,7 @@ FaceNet基本原理和实现步骤：
 - 通过嵌入层embedding将图像特征映射到超球面空间（即为图像的特征向量）
 - 利用三元组损失Triplet Loss对特征相似性进行评估，实现人脸相似性度量
 
-![alt](img/facenet.png)
+![alt](./img/facenet.png)
 
 ```python
 # 定义facenet人脸检测处理类

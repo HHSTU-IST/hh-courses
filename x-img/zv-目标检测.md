@@ -15,7 +15,7 @@
 
 通过VOC 2012数据集训练基于Faster R-CNN的通用目标检测模型，利用该模型对图像和视频的物体进行检测。
 
-![alt](img/proc-objdet.png)
+![alt](./img/proc-objdet.png)
 
 训练Faster R-CNN主要包括以下步骤：
 
@@ -31,7 +31,7 @@
 
 熟悉和掌握Faster R-CNN的有关知识。Faster R-CNN由3部分组成，如图所示，即特征提取网络、RPN和边界框分类回归网络，分别实现提取区域特征、获取兴趣区域和目标边界框分类的任务。
 
-![alt](img/rcnn.png)
+![alt](./img/rcnn.png)
 
 RPN和边界框分类回归网络共享特征提取网络提取的特征，为了产生多个兴趣区域，需要在共享卷积层后添加新的卷积层，新添加的卷积层属于RPN，因此RPN实际是一个全卷积神经网络（Fully Convolutional Neural Network，FCN）。
 
@@ -86,7 +86,7 @@ while(1):
 
 Faster R-CNN损失函数包括RPN损失函数和分类回归网络损失函数，并且两部分损失都包括分类损失函数和回归损失函数，Faster R-CNN损失函数结构如下图所示。
 
-![alt](img/rcnn-loss.png)
+![alt](./img/rcnn-loss.png)
 
 完成损失函数的定义后开始训练模型，采用Adam优化器训练100个循环。初始学习率设置为0.0001，并随着训练循环次数和损失收敛情况进行衰减。
 
