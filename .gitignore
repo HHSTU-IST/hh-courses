@@ -14,5 +14,9 @@
 *.mp4
 *.docx
 
+.workbuddy
+.frames
+node_modules
+
 vision/*.ipynb
 vision-plus
